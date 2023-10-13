@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    height: 65px;
+    width: 55px;
+    margin-right: 20px;
+    border-radius: 6px;
+    border: none;
+}
+
+#rock{
+    background-color: red ;
+    font-size: 30px;
+}
+
+#paper{
+    background-color: skyblue;
+    font-size: 30px;
+}
+
+#scissors{
+    background-color: greenyellow;
+    font-size: 30px;
+}
+
